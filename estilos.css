@@ -1,0 +1,157 @@
+body{
+	background: rgb(19,38,247); /* Old browsers */
+	background: -moz-linear-gradient(left,  rgba(19,38,247,1) 0%, rgba(224,243,250,1) 35%, rgba(224,243,250,1) 65%, rgba(19,38,247,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(19,38,247,1)), color-stop(35%,rgba(224,243,250,1)), color-stop(65%,rgba(224,243,250,1)), color-stop(100%,rgba(19,38,247,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left,  rgba(19,38,247,1) 0%,rgba(224,243,250,1) 35%,rgba(224,243,250,1) 65%,rgba(19,38,247,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left,  rgba(19,38,247,1) 0%,rgba(224,243,250,1) 35%,rgba(224,243,250,1) 65%,rgba(19,38,247,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left,  rgba(19,38,247,1) 0%,rgba(224,243,250,1) 35%,rgba(224,243,250,1) 65%,rgba(19,38,247,1) 100%); /* IE10+ */
+	background: linear-gradient(to right,  rgba(19,38,247,1) 0%,rgba(224,243,250,1) 35%,rgba(224,243,250,1) 65%,rgba(19,38,247,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1326f7', endColorstr='#1326f7',GradientType=1 ); /* IE6-9 */
+	font-size: 16px;
+	text-align: center;
+}
+canvas{
+	float: left;
+	margin:15px 0 0 30px;
+}
+h3{
+	color: #FF4000;
+	font-family: lobster;
+	font-size: 2em;
+	font-weight: lighter;
+	text-shadow: 3px 3px 2px rgba(50, 50, 50, .7);
+}
+#dadoSorteo{
+	background:url(imagenes/dadoSorteo.png);
+	height: 150px;
+	width: 150px;
+}
+#elegirAmarillo{
+	background: yellow;
+	font-family: lobster;
+	height: 100px;
+	width: 100px;
+}
+#elegirRojo{
+	background: red;
+	font-family: lobster;
+	height: 100px;
+	/*margin-left: 35%;*/
+	width: 100px;
+}
+#jugar{
+	background:url(imagenes/botonInicio.png);
+	font-size: 3em;
+}
+#jugarDeNuevo{
+	font-size: 1.5em;
+	margin: 2em 0 0 0 ;
+}
+#marcador{
+	/*background: gold;*/
+	float: left;
+	height: 240px;
+	margin: 0;
+	padding: 0 0 20px 0;
+	width: 300px;
+}
+#marcador input{
+	font-family: lobster;
+	font-size: 1.5em;
+	font-weight: bolder;
+	height: 50px;
+	margin:0 0 1em 0;
+	text-align: center;
+	width: 50px;
+}
+#marcador p{
+	color: white;
+	font-family: lobster;
+	font-size: 1.2em;
+	margin: 0;
+	padding: 0;
+}
+#marcadorRojo{
+	background: #ff0000;
+}
+#marcadorAmarillo{
+	background: #ffff00;
+}
+
+#panelContenedor{
+	/*background: lime;*/
+	float: left;
+	height: 650px;
+	width: 300px;
+	margin: 0 0 0 30px;
+	position: relative;
+}
+#panelFinal h2{
+	color: #35e431;
+	font-family: lobster;
+	font-size: 2.5em;
+	text-shadow: 4px 4px 2px rgba(84, 84, 84, .5);
+}
+#panelInicio input{
+	font-size: 1.5em;
+	border-radius: 50%;
+}
+
+
+#panelSorteo{
+}
+.dado{
+	height: 150px;
+	margin: 0 auto;
+	width: 150px;
+}
+.cubileteAmarillo{
+	background:url(imagenes/cubileteAmarillo.png);
+}
+.cubileteRojo{
+	background:url(imagenes/cubileteRojo.png);
+}
+.oculto{
+	display: none;
+}
+.panel{
+	/*background: pink;*/
+	clear: both;
+	float: left;
+	height: 500px;
+	margin: 1em 0 0 0;
+	width: 300px;
+}
+.visible{
+	display: inline;
+}
+
+@media screen and (max-width: 1030px){
+	h3{
+		margin: 0;
+		padding: 10px 0 15px 0;
+		font-size: 1.7em;
+	}
+	#panelContenedor{
+		/*background: lime;*/
+		position: relative;
+		width: 650px;
+		height: 300px;
+	}
+	#marcador{
+		/*background: gold;*/
+		height: 300px;
+		position: absolute;
+		right: 0;
+		padding: 0;
+	}
+	.panel{
+		/*background: pink;*/
+		height: 300px;
+		position: absolute;
+		padding: 0;
+		margin: 0;
+		left: 0;
+		width: 350px;
+	}
+}

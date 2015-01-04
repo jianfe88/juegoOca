@@ -1,0 +1,54 @@
+Tareas:
+ □ Incorporar sonidos.
+ □ Un estudiante me ha dejado un aviso sobre un atasco cuando una ficha esta en la carcel.
+Enlace:
+  □ http://goo.gl/qgC7cI
+
+
+
+＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿
+Archive:
+ √ Responsive design. @done (14-09-23 11:10) @project(Tareas)
+ √ Marcador @done (14-09-22 23:41) @project(Tareas)
+ √ El jugador escoge ficha. @done (14-09-22 23:41) @project(Tareas)
+ √ A veces el boton de sortear turno no asigna el turno a la primera. @done (14-09-21 18:47) @project(Tareas)
+  Solucionado el número aleatorio a veces era 2.
+ √ Pantalla de final de partida.Añadir botón para reiniciar. @done (14-09-21 17:08) @project(Tareas)
+ √ Fondo pantalla @done (14-09-21 16:45) @project(Tareas)
+ √ Colgar la página en Drive. @done (14-09-21 16:23) @project(Tareas)
+ √ Parece que el castigo tiene uno de más.Esta correcto @done (14-09-21 16:22) @project(Tareas)
+ √ Ajustar el dado al número obtenido al tirarDado @done (14-09-21 13:58) @project(Tareas)
+ √ Cambiar el dado con interrogante por un cubilete @done (14-09-21 12:14) @project(Tareas)
+ √ Borrar el mensaje una vez se mueve la ficha y se cambia el turno. @done (14-09-21 11:20) @project(Tareas)
+ √  Al mostrar el mensaje y retrasar la ejecución de la función moverFichasEspecial. @done (14-09-21 11:20) @project(Tareas)
+ √ Salta muy rápido de un mensaje a otro no da tiempo a verle @done (14-09-21 11:08) @project(Tareas)
+ √ Indicar campeón con el dado correspondiente. @done (14-09-17 21:52) @project(Tareas)
+ √  Panel de Juego @done (14-09-17 21:52) @project(Tareas)
+ √ Meta @done (14-09-17 21:49) @project(Tareas)
+ √ Mensaje de quien gano @done (14-09-17 21:49) @project(Tareas)
+ √ Dado coincidente con el turno. @done (14-09-17 17:45) @project(Tareas)
+ √ Ocultar el panel de juego @done (14-09-17 17:44) @project(Tareas)
+ √ Panel de juego inicial @done (14-09-16 18:51) @project(Tareas)
+ √ Panel de Inicio @done (14-09-16 18:51) @project(Tareas)
+ √ Programarlo @done (14-09-16 18:04) @project(Tareas)
+ √ Diseñarlo @done (14-09-16 18:04) @project(Tareas)
+ √ Programarlo. @done (14-09-16 16:10) @project(Tareas)
+ √ Diseñarlo @done (14-09-16 13:51) @project(Tareas)
+ √ Fondo pantalla degradado @done (14-09-16 12:28) @project(Tareas)
+ √ Casillas especiales @done (14-09-15 21:02) @project(Tareas)
+ √ Posada, Pozo, Carcel @done (14-09-15 21:01) @project(Tareas)
+ √ Casillas más alla de la meta @done (14-09-15 21:01) @project(Tareas)
+ √ laberinto @done (14-09-13 19:57) @project(Tareas)
+ √ Puentes @done (14-09-13 19:57) @project(Tareas)
+ √ Dados @done (14-09-13 19:57) @project(Tareas)
+ √ Calavera @done (14-09-13 19:57) @project(Tareas)
+ √ Ocas @done (14-09-13 16:48) @project(Tareas)
+ √ Una vez que coge el turno la roja no lo devuelve. @done (14-09-13 11:10) @project(Tareas)
+ √ Cambiar turno. A que jugador le toca tirar. @done (14-09-13 11:10) @project(Tareas)
+ √ Cuenta uno más @done (14-09-13 10:39) @project(Tareas)
+ √ Lanzar el dado. @done (14-09-13 09:35) @project(Tareas)
+ √ Sorteo turno.Que jugador comienza primero. @done (14-09-13 09:21) @project(Tareas)
+ √ Reiniciar la partida @done (14-09-12 22:07) @project(Tareas)
+ √ meter la posiciones en un array @done (14-09-12 21:55) @project(Tareas)
+ √ Mover las fichas por todas las casillas individualmentes @done (14-09-12 21:55) @project(Tareas)
+ √ Crear el canvas, el fondo y las fichas @done (14-09-12 14:12) @project(Tareas)

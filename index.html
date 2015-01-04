@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- <meta http-equiv="refresh" content="7"> -->
+	<meta name="viewport" content="width=device-width, initial-scale= 1, maximum-scale=1" />
+	<meta charset="UTF-8" />
+	<title>Juego de la oca</title>
+	<link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css' />
+	<link rel="stylesheet" href="normalize.css" />
+	<link rel="stylesheet" href="estilos.css" />
+	<script src="oca.js"></script>
+</head>
+<body>
+	<div id="panelContenedor">
+		<div id="marcador">
+			<h3 id="colorJugador">Juegas con...</h3>
+			<h3>Asi va el tanteo</h3>
+			<input type="text" id="marcadorRojo" value="0">
+			<input type="text" id="marcadorAmarillo" value="0">
+			<p>*Click en el cubilete para lanzar</p>
+		</div>
+		<div id="panelInicio" class= "visible panel" >
+			<h3 id="mensaje">Elige ficha y juega</h3>
+			<input type="button" value="" id="elegirRojo" onclick="jugar();seleccionarFicha('rojo')">
+			<input type="button" value="" id="elegirAmarillo" onclick="jugar();seleccionarFicha('amarillo')">
+		</div>
+		<div id="panelSorteo" class="oculto panel">
+			<h3 id="mensaje">Click en el dado para sortear el turno</h3>
+			<div id="dadoSorteo" class="dado" onclick="sorteoInicial()" onmouseover="sobre()"></div>
+		</div>
+		<div id="panelJuego" class="oculto panel">
+			<h3 id="mensaje">Turno para...</h3>
+			<div id="dadoEnJuego" class="dado" onclick="tirada()" onmouseover="sobre()"></div>
+			<h3 id="alerta">Lo siento culpa mía, tendrás que recargar la página de nuevo</h3>
+		</div>
+		<div id="panelFinal" class="oculto panel">
+			<h2 id="mensaje">Ganador...</h2>
+			<div id="dadoGanador" class="dado"></div>
+			<input type="button" id="jugarDeNuevo" value="Nueva Partida" onclick="jugar()" >
+		</div>
+		
+	</div>
+	<canvas id="tablero" ></canvas>
+	<script>
+		iniciar()
+		
+	</script>
+</body>
+</html>
