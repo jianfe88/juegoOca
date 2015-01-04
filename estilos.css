@@ -7,7 +7,7 @@ body{
 	background: -ms-linear-gradient(left,  rgba(19,38,247,1) 0%,rgba(224,243,250,1) 35%,rgba(224,243,250,1) 65%,rgba(19,38,247,1) 100%); /* IE10+ */
 	background: linear-gradient(to right,  rgba(19,38,247,1) 0%,rgba(224,243,250,1) 35%,rgba(224,243,250,1) 65%,rgba(19,38,247,1) 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1326f7', endColorstr='#1326f7',GradientType=1 ); /* IE6-9 */
-	font-size: 16px;
+	font-size: 28px;
 	text-align: center;
 }
 canvas{
